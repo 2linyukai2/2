@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>林裕凱 Yu-Kai Lin | 空間數據分析與 ESG 永續研究</title>
+    <meta name="description" content="林裕凱的個人作品集。專注於土木工程、高精度測量計算、QGIS 空間數據分析以及醫療機構 ESG 永續建築策略研究。">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <header class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 font-bold text-xl tracking-wider text-slate-900">
+                    <a href="#" class="hover:text-blue-600 transition-colors">林裕凱</a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-slate-600 hover:text-blue-600 transition-colors font-medium">About</a>
+                    <a href="#courses" class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Courses</a>
+                    <a href="#projects" class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Projects</a>
+                    <a href="#skills" class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Skills</a>
+                    <a href="#contact" class="text-slate-600 hover:text-blue-600 transition-colors font-medium">Contact</a>
+                </nav>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-blue-600 focus:outline-none transition-colors" aria-expanded="false">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 shadow-lg absolute w-full">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-blue-600">About</a>
+                <a href="#courses" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-blue-600">Courses</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-blue-600">Projects</a>
+                <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-blue-600">Skills</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-slate-600 hover:text-blue-600">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-b from-slate-100 to-white text-slate-900">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+                    Hi, I'm <span class="text-blue-600">林裕凱</span>
+                </h1>
+                <p class="text-lg md:text-2xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                    專注於高精度測量、空間數據分析與 ESG 永續發展的土木工程研究者。
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#projects" class="px-8 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-all shadow-md">View Work</a>
+                    <a href="#contact" class="px-8 py-3 rounded-lg bg-transparent border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold transition-all">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-white">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-900 mb-4">About Me</h2>
+                    <div class="w-16 h-1 bg-blue-500 mx-auto rounded"></div>
+                </div>
+                <div class="space-y-6 text-lg text-slate-600 leading-relaxed text-center">
+                    <p>我是一名具備土木工程背景的研究者，對資料與空間有著高度的敏銳度。我的專業涵蓋高精度測量計算、土地法規分析，以及使用 QGIS 進行地理空間數據的處理與視覺化。</p>
+                    <p>目前，我正積極投入 ESG 永續建築策略的研究，並準備於今年的永續發展研討會發表相關成果。我相信工程技術與永續發展的結合，是未來城市規劃的關鍵。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-24 bg-slate-50"><div class="max-w-5xl mx-auto px-4 lg:px-8"><div class="text-center mb-16"><h2 class="text-3xl font-bold text-slate-900 mb-4">Skills</h2><div class="w-16 h-1 bg-blue-500 mx-auto rounded"></div></div><div id="skills-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"></div></div></section>
+        <section id="projects" class="py-24 bg-white"><div class="max-w-6xl mx-auto px-4 lg:px-8"><div class="text-center mb-16"><h2 class="text-3xl font-bold text-slate-900 mb-4">Projects</h2><div class="w-16 h-1 bg-blue-500 mx-auto rounded"></div></div><div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div></div></section>
+        <section id="courses" class="py-24 bg-slate-50"><div class="max-w-5xl mx-auto px-4 lg:px-8"><div class="text-center mb-16"><h2 class="text-3xl font-bold text-slate-900 mb-4">Courses</h2><div class="w-16 h-1 bg-blue-500 mx-auto rounded"></div></div><div id="courses-container" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div></div></section>
+
+        <section id="contact" class="py-24 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Get In Touch</h2>
+                <div class="w-16 h-1 bg-blue-500 mx-auto rounded mb-12"></div>
+                <div class="flex justify-center gap-8">
+                    <a href="#" id="email-link" class="group flex flex-col items-center gap-3 text-slate-500 hover:text-blue-600 transition-colors">
+                        <div class="w-16 h-16 rounded-full bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:shadow-md transition-all"><i class="fas fa-envelope text-2xl"></i></div>
+                        <span class="font-medium">Email</span>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="group flex flex-col items-center gap-3 text-slate-500 hover:text-blue-600 transition-colors">
+                        <div class="w-16 h-16 rounded-full bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:shadow-md transition-all"><i class="fab fa-linkedin-in text-2xl"></i></div>
+                        <span class="font-medium">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="group flex flex-col items-center gap-3 text-slate-500 hover:text-slate-900 transition-colors">
+                        <div class="w-16 h-16 rounded-full bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:shadow-md transition-all"><i class="fab fa-github text-2xl"></i></div>
+                        <span class="font-medium">GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-50 py-8 text-center border-t border-slate-200">
+        <p class="text-slate-500 text-sm">&copy; 2026 Yu-Kai Lin. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
