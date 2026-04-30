@@ -1,20 +1,22 @@
 html {
     scroll-padding-top: 5rem;
+    background-color: #020617; /* Tailwind 的 slate-950，作為最底層背景 */
 }
 body {
     overflow-x: hidden;
 }
-/* 優化滾動條，讓網頁更有質感 */
+/* 科技感滾動條 */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f5f9;
+    background: #0f172a; /* slate-900 */
 }
 ::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
-    border-radius: 4px;
+    background: #334155; /* slate-700 */
+    border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #94a3b8;
+    background: #06b6d4; /* cyan-500 點綴科技藍 */
+    box-shadow: 0 0 10px #06b6d4;
 }
